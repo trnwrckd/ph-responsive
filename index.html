@@ -4,10 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1cdbfbf181.js" crossorigin="anonymous"></script>
     <title>Responsive LeaderBoard</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <div class="nav-section">
+                    <li>
+                        <img id="logo-img" src="images/icons/logo.png" alt="Logo of LeaderBoard" srcset="">
+                    </li>
+                    <li>
+                        <span class= "font-size-24"> Idea</span>
+                    </li>
+                </div>
+                <div class="nav-section"> 
+                    <li class="nav-links">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="">About</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="">Works</a>
+                    </li>
+                    <li><img id="profile-image" src="images/icons/profile.png" alt="Picture of a male Smiling"></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="topContainer">
+            <div class="topPlayerContainer">
+                <span class="font-size-24 blue-text"> Top Player</span>
+                <div class="playersContainer">
+                    <div class="player">
+                        <img src="images/players/player-1.png" alt="" srcset=""></img>
+                        <span class="playerName"> John smith</span>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-2.png" alt="" srcset=""></img>
+                        <span class="playerName"> Pro Rasel</span>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-3.png" alt="" srcset=""></img>
+                        <span class="playerName"> Abu Sufian</span>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-4.png" alt="" srcset=""></img>
+                        <span class="playerName"> Shajedul Karim</span>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-5.png" alt="" srcset=""></img>
+                        <span class="playerName"> Maruf Ahmed</span>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-6.png" alt="" srcset=""></img>
+                        <span class="playerName"> Mujahid</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="topBlogsContainer">
+                <span class="font-size-24 blue-text"> Top Blog</span>
+                <div class="blogsContainer">
+                    <article class="blogs">
+
+                        <img src="images/blogs/blog-1.png" alt="" srcset="">
+                        <div class="blogInfo">
+                            <div class="font-size-20">13 of My Favorite
+                                UI/UX Goodies</div>
+                            <div class="font-size-16">By Danny Sapio</div>
+                        </div>
+                    </article>
+                    <article class="blogs">
+
+                        <img src="images/blogs/blog-2.png" alt="" srcset="">
+                        <div class="blogInfo">
+                            <div class="font-size-20">UI cheat sheet: 
+                                list vs grids</div>
+                            <div class="font-size-16">By Tess Gadd</div>
+                        </div>
+                    </article>
+                    <article class="blogs">
+
+                        <img src="images/blogs/blog-3.png" alt="" srcset="">
+                        <div class="blogInfo">
+                            <div class="font-size-20">7 typography tips 
+                                for interface design</div>
+                            <div class="font-size-16">By Jeremiah Lam</div>
+                        </div>
+                    </article>
+                    <article class="blogs">
+
+                        <img src="images/blogs/blog-4.png" alt="" srcset="">
+                        <div class="bloginfo">
+                            <div class="font-size-20">Your logo is 
+                                copied</div>
+                            <div class="font-size-16">By Ferdinand Vogler</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <span id="courseHeader" class="font-size-24 blue-text"> Latest Course</span>
+            <div class="coursesContainer">
+                <div class="courses">
+                    <img src="images/courses/course-1.png" alt="" srcset="">
+                    <span class="font-size-20">React - The Complete Guide</span>
+                    <span class="font-size-14 roboto-red">Reed Krakoff</span>
+                    <div class="courseInfo">
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray-text"></i>
+                        </div>
+                        <span class="font-size-14 gray-text"> 4.5</span>
+                        <span class="courseDuration">
+                            <i class="far fa-clock"></i>
+                            <span class="font-size-14">01.30hr</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="courses">
+                    <img src="images/courses/course-2.png" alt="" srcset="">
+                    <span class="font-size-20">Powerpoint 2020 Master Powerpoint Course</span>
+                    <span class="font-size-14 roboto-red">Walter Scott</span>
+                    <div class="courseInfo">
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray-text"></i>
+                        </div>
+                        <span class="font-size-14 gray-text"> 4.3</span>
+                        <span class="courseDuration">
+                            <i class="far fa-clock"></i>
+                            <span class="font-size-14">01.20hr</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="courses">
+                    <img src="images/courses/course-3.png" alt="" srcset="">
+                    <span class="font-size-20">The Complete JavaScript Course 2020</span>
+                    <span class="font-size-14 roboto-red">Reed Krakoff</span>
+                    <div class="courseInfo">
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray-text"></i>
+                        </div>
+                        <span class="font-size-14 gray-text"> 4.5</span>
+                        <span class="courseDuration">
+                            <i class="far fa-clock"></i>
+                            <span class="font-size-14">01.30hr</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
