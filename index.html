@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1cdbfbf181.js" crossorigin="anonymous"></script>
     <title>Responsive LeaderBoard</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -19,10 +22,10 @@
                         <img id="logo-img" src="images/icons/logo.png" alt="Logo of LeaderBoard" srcset="">
                     </li>
                     <li>
-                        <span class= "font-size-24"> Idea</span>
+                        <span class="font-size-24"> Idea</span>
                     </li>
                 </div>
-                <div class="nav-section"> 
+                <div class="nav-section">
                     <li class="nav-links">
                         <a href="">Home</a>
                     </li>
@@ -39,9 +42,12 @@
     </header>
 
     <main>
+        <!-- Top Player + Blogs Section -->
         <section class="topContainer">
+            <!-- Top Players Container -->
             <div class="topPlayerContainer">
                 <span class="font-size-24 blue-text"> Top Player</span>
+                <!-- Players Container -->
                 <div class="playersContainer">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="" srcset=""></img>
@@ -70,11 +76,12 @@
                 </div>
             </div>
             <hr>
+            <!-- Top Blogs Container -->
             <div class="topBlogsContainer">
-                <span class="font-size-24 blue-text"> Top Blog</span>
+                <span class="font-size-24 blue-text"> Top Blogs</span>
+                <!-- Blogs Container -->
                 <div class="blogsContainer">
                     <article class="blogs">
-
                         <img src="images/blogs/blog-1.png" alt="" srcset="">
                         <div class="blogInfo">
                             <div class="font-size-20">13 of My Favorite
@@ -83,28 +90,25 @@
                         </div>
                     </article>
                     <article class="blogs">
-
                         <img src="images/blogs/blog-2.png" alt="" srcset="">
                         <div class="blogInfo">
-                            <div class="font-size-20">UI cheat sheet: 
+                            <div class="font-size-20">UI cheat sheet:
                                 list vs grids</div>
                             <div class="font-size-16 blue-text"><span class="gray-text">By</span> Tess Gadd</div>
                         </div>
                     </article>
                     <article class="blogs">
-
                         <img src="images/blogs/blog-3.png" alt="" srcset="">
                         <div class="blogInfo">
-                            <div class="font-size-20">7 typography tips 
+                            <div class="font-size-20">7 typography tips
                                 for interface design</div>
                             <div class="font-size-16 blue-text"><span class="gray-text">By</span> Jeremiah Lam</div>
                         </div>
                     </article>
                     <article class="blogs">
-
                         <img src="images/blogs/blog-4.png" alt="" srcset="">
                         <div class="bloginfo">
-                            <div class="font-size-20">Your logo is 
+                            <div class="font-size-20">Your logo is
                                 copied</div>
                             <div class="font-size-16 blue-text"><span class="gray-text">By</span> Ferdinand Vogler</div>
                         </div>
@@ -113,14 +117,16 @@
             </div>
         </section>
 
+        <!-- Courses Section -->
         <section id="courseSection">
-                <span id="courseHeader" class="font-size-24 blue-text"> Latest Course</span>
-                <div class="coursesContainer">
+            <span id="courseHeader" class="font-size-24 blue-text"> Latest Course</span>
+            <!-- Courses Container -->
+            <div class="coursesContainer">
                 <div class="courses">
                     <img src="images/courses/course-1.png" alt="" srcset="">
                     <span class="font-size-20">React - The Complete Guide</span>
                     <span class="font-size-14 roboto-red">Reed Krakoff</span>
-                    <div class="courseInfo">
+                    <div class="courseInfo font-size-14">
                         <div>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -139,7 +145,7 @@
                     <img src="images/courses/course-2.png" alt="" srcset="">
                     <span class="font-size-20">Powerpoint 2020 Master Powerpoint Course</span>
                     <span class="font-size-14 roboto-red">Walter Scott</span>
-                    <div class="courseInfo">
+                    <div class="courseInfo font-size-14">
                         <div>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -158,7 +164,7 @@
                     <img src="images/courses/course-3.png" alt="" srcset="">
                     <span class="font-size-20">The Complete JavaScript Course 2020</span>
                     <span class="font-size-14 roboto-red">Reed Krakoff</span>
-                    <div class="courseInfo">
+                    <div class="courseInfo font-size-14">
                         <div>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -177,4 +183,5 @@
         </section>
     </main>
 </body>
+
 </html>

@@ -1,7 +1,8 @@
-/* importing fonts */
+/* 
+    importing fonts
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -13,26 +14,23 @@ hr{
     border-bottom: 1px solid #D1D1D1;
     margin: 30px 0;
 }
-
 main{
     margin-top: 36px;
     margin-bottom: 28px;
     margin-left:  285px;
     margin-right:  285px;
-    /* display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-evenly; */
 }
 section{
     background-color: white;
 }
 
-/* Navigation Bar */
+
+/*
+    Navigation Bar
+*/
 nav{
     background-color: #562EFF;
     color: #fff;
-    position: relative;
     padding: 0 285px;
     height: 94px;
 }
@@ -64,12 +62,16 @@ li a{
     padding-right: 36px;
 }
 
-/* Top Container */
+/*
+    Top Container
+*/
 .topContainer{
     margin-bottom: 21px;
     padding:30px;
-    
 }
+/*
+    Players Container
+*/
 .playersContainer{
     margin-top: 40px;
     display: grid;
@@ -86,7 +88,9 @@ li a{
     height: 56px;
 }
 
-/* Blogs Container */
+/*
+    Blogs Container
+*/
 .blogsContainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -108,7 +112,9 @@ li a{
     flex-flow: column;
 }
 
-/* Courses Container */
+/* 
+    Courses Container
+*/
 #courseSection{
     padding: 31px 21px;
 }
@@ -117,23 +123,18 @@ li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 23px;
-    /* padding:  0 20px; */
     padding-bottom: 22px;
 }
 .font-size-24.blue-text{
-    /* margin-left: 13px; */
- 
+    margin-left: 10px;
 }
 .courses{
     padding:  0 15px;
-    height: 270px;
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
     display:flex;
     flex-flow: column;
-    justify-content: space-evenly;
-    /* align-items: center; */
-    /* justify-content: center; */
-
+    justify-content: space-between;
+    align-items: center;
 }
 .courses img{
     width: 224px;
@@ -141,7 +142,7 @@ li a{
 }
 .courseInfo{
     display: flex;
-    /* justify-content: space-between; */
+    padding-bottom: 10px;
 }
 .courseDuration{
     background-color: #FFE4E8;
@@ -150,13 +151,24 @@ li a{
     padding: 3px 5px;
 
 }
+/* 
+    course ratings
+*/
 .font-size-14.gray-text{
     margin-right: 25px;
     margin-left: 10px;
 }
 
+/* 
+    left-margin for all containers 
+*/
+.playersContainer  .blogsContainer .coursesContainer{
+    margin-left: 15px;
+}
 
-/* Font Sizes */
+/* 
+    Font Sizes
+*/
 .font-size-14{
     font-size: 14px;
 }
@@ -177,7 +189,10 @@ li a{
     color: #ED6B4F;
 
 }
-/*colors */
+
+/* 
+    colors 
+*/
 .blue-text{
     color: #562EFF;
 }
@@ -189,5 +204,4 @@ li a{
 }
 .gray-text{
     color: #AEAEAE;
-
 }

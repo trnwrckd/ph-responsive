@@ -1,0 +1,103 @@
+/* 
+    Mobile
+*/
+@media only screen and (max-width: 688px) {
+    body{
+        text-align: center;
+    }
+    main{
+        margin:0;
+        padding: 2.5% 5%;
+        display: flex;
+        flex-flow: column;
+    }
+    .topcontainer{
+        padding: 0;
+    }
+    nav{
+        padding: 0;
+        margin: 0;
+    }
+    ul{
+        padding: 0 10px;
+    }
+    #logo-img{
+        padding-right: 5px;
+    }
+    .nav-links{
+        padding-right: 12px;
+    }
+    .playersContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .blogsContainer, .coursesContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player , .courses, .blogs {
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
+/* 
+    Tab
+*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    main{
+        margin:0;
+        padding: 2.5% 10%;
+        display: flex;
+        flex-flow: column;
+    }
+    .topcontainer{
+        padding: 0;
+    }
+    nav{
+        padding: 0;
+        margin: 0;
+    }
+    ul{
+        padding: 0 10px;
+    }
+    #logo-img{
+        padding-right: 15px;
+    }
+    .nav-links{
+        padding-right: 18px;
+    }
+    .playersContainer  , .blogsContainer, .coursesContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player , .courses, .blogs {
+        flex-flow: column;
+        align-items: center;
+    }
+}
+/*
+    Tab to 1440px
+    Because the Figma file provided had that res
+*/
+@media only screen and (min-width:992px) and (max-width:1439px) {
+    main{
+        margin:0;
+        padding: 2.5% 10%;
+        display: flex;
+        flex-flow: column;
+    }
+    .blogs>img{
+        width: 100%;
+    }
+    .courses img{
+        width: 80%;
+    }
+    .font-size-14.gray-text{
+        margin-right: 5px;
+        margin-left: 2px;
+    }
+    .courseInfo{
+        display: flex;
+    }
+}
