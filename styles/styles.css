@@ -1,6 +1,8 @@
 /* importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body{
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -17,6 +19,10 @@ main{
     margin-bottom: 28px;
     margin-left:  285px;
     margin-right:  285px;
+    /* display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly; */
 }
 section{
     background-color: white;
@@ -103,22 +109,30 @@ li a{
 }
 
 /* Courses Container */
+#courseSection{
+    padding: 31px 21px;
+}
 .coursesContainer{
+    margin-top: 11px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 23px;
-    padding:  0 20px;
+    /* padding:  0 20px; */
+    padding-bottom: 22px;
 }
-#courseHeader{
-    margin-top: 23px;
-    padding-left: 33px;
-    margin-bottom: 24px;
+.font-size-24.blue-text{
+    /* margin-left: 13px; */
+ 
 }
 .courses{
-    padding: 6px;
+    padding:  0 15px;
+    height: 270px;
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
     display:flex;
     flex-flow: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* justify-content: center; */
 
 }
 .courses img{
@@ -127,7 +141,7 @@ li a{
 }
 .courseInfo{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .courseDuration{
     background-color: #FFE4E8;
@@ -135,6 +149,10 @@ li a{
     border-radius: 15px;
     padding: 3px 5px;
 
+}
+.font-size-14.gray-text{
+    margin-right: 25px;
+    margin-left: 10px;
 }
 
 
@@ -161,6 +179,9 @@ li a{
 }
 /*colors */
 .blue-text{
+    color: #562EFF;
+}
+.red-text{
     color: #562EFF;
 }
 .fa-star{
